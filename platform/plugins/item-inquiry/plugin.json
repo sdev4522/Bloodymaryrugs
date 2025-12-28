@@ -1,0 +1,8 @@
+{
+    "name": "Item Inquiry",
+    "version": "1.0",
+    "description": "Item Inquiry plugin for Botble CMS",
+    "author": "Botble Team",
+    "namespace": "Botble\\ItemInquiry\\",
+    "provider": "Botble\\ItemInquiry\\Providers\\ItemInquiryServiceProvider"
+}
