@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 $locale = BaseHelper::getAdminPrefix();
 Route::group(['prefix' => $locale, 'middleware' => ['web', 'auth', 'verified']], function () {
     Route::resource('item-inquiries', InquiryController::class)->names([
-        'index'   => 'index',
+        'index'   => 'item-inquiry.index',
         'create'  => 'item-inquiry.create',
         'store'   => 'item-inquiry.store',
         'view'    => 'item-inquiry.view',
