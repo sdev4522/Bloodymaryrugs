@@ -16,7 +16,7 @@ Theme::asset()->usePath()->add('bootstrap-icons', 'vendors/bootstrap-icons/boots
              COLUMN 1: IMAGES & CROSS-SELL (Left)
         ================================================================= --}}
         <div class="col-lg-4 col-md-12 col-12">
-            <div class="detail-gallery sticky-top" style="top: 20px; z-index: 10;">
+            <div class="detail-gallery sticky-top" style="z-index: 10;">
                 <div class="product-image-slider border rounded mb-3 bg-white p-2">
                     @foreach ($productImages as $img)
                     <figure class="m-0">
