@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dbd321d9f0bcd0f238665bad0000622a",
+    "content-hash": "3e9f4229e1914b0eb5ad944fe3274d4d",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -11350,6 +11350,45 @@
             "time": "2024-12-21T16:25:41+00:00"
         },
         {
+            "name": "twbs/bootstrap-icons",
+            "version": "v1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/icons.git",
+                "reference": "ce0e49dd063243118a115f17ad1fe1fe7576d552"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/icons/zipball/ce0e49dd063243118a115f17ad1fe1fe7576d552",
+                "reference": "ce0e49dd063243118a115f17ad1fe1fe7576d552",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "Official open source SVG icon library for Bootstrap",
+            "homepage": "https://icons.getbootstrap.com/",
+            "keywords": [
+                "bootstrap",
+                "icon font",
+                "icons",
+                "svg"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/icons/issues",
+                "source": "https://github.com/twbs/icons/tree/v1.13.1"
+            },
+            "time": "2025-05-09T23:01:19+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v3.21.1",
             "source": {
@@ -15216,5 +15255,5 @@
         "ext-zip": "*"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }

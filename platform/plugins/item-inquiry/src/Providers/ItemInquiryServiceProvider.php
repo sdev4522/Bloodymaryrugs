@@ -20,7 +20,7 @@ class ItemInquiryServiceProvider extends ServiceProvider
             'parent_id'   => null,
             'name'        => 'Product Inquiries',
             'icon'        => 'fa fa-envelope',
-            'url' => '/admin/item-inquiry',
+            'url' => '/admin/item-inquiries',
             'permissions' => ['item-inquiry.index'],
         ]);
     }

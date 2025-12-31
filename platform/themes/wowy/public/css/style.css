@@ -190,6 +190,14 @@ input:focus::-moz-placeholder {
     height: 100vh !important
 }
 
+.fs-18
+ {
+    font-size: 1.125rem !important;
+}
+.fw-semibold {
+    font-weight: 600 !important;
+}
+
 .custom-select:focus,
 :focus,
 [contenteditable].form-control:focus,

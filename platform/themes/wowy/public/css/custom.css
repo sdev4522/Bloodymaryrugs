@@ -1,0 +1,198 @@
+/* ======================================================
+   PRODUCT DETAIL – PROFESSIONAL MOBILE-FIRST POLISH
+   Inspired by Amazon / Velvet
+   JS-safe (no class removals)
+   ====================================================== */
+
+
+/* -------------------------------
+   GLOBAL REFINEMENTS
+-------------------------------- */
+
+.detail-info h2.title-detail {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.product-price h3 {
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.product-price .old-price {
+  font-size: 14px;
+}
+
+.detail-gallery figure {
+  background: #f6f7f8;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.detail-gallery img {
+  object-fit: contain;
+}
+
+.product-scroll {
+  background: #fff;
+}
+
+
+/* -------------------------------
+   MOBILE-FIRST CLEANUP
+-------------------------------- */
+@media (max-width: 767.98px) {
+
+  /* ===== REMOVE DISTRACTIONS ===== */
+
+  /* Sidebar never belongs on mobile PDP */
+  .product-detail .col-xl-4 {
+    display: none !important;
+  }
+
+  /* Thumbnail strip = clutter on mobile */
+  .slider-nav-thumbnails {
+    display: none !important;
+  }
+
+  /* Duplicate long description near gallery */
+  .short-desc {
+    display: none !important;
+  }
+
+  /* Meta junk – SKU, tags, share, email */
+  .product-meta,
+  .single-social-share,
+  .mail-to-friend {
+    display: none !important;
+  }
+
+  /* Desktop-style tabs don’t work on mobile */
+  .tab-style3 {
+    display: none !important;
+  }
+
+
+  /* ===== VISUAL HIERARCHY ===== */
+
+  .detail-info {
+    padding-top: 4px;
+  }
+
+  .detail-info > * {
+    margin-bottom: 14px;
+  }
+
+  .detail-info > h2 {
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+
+  .product-detail-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .product-rate-cover p {
+    margin-bottom: 0 !important;
+    font-size: 14px;
+  }
+
+  .product-price h3 {
+    font-size: 24px;
+  }
+
+  .badge-1 {
+    font-size: 11px;
+    padding: 4px 6px;
+  }
+
+
+  /* ===== CTA DOMINANCE (AMAZON STYLE) ===== */
+
+  .detail-extralink {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .detail-qty {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .product-extra-link2 {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 12px;
+    border-top: 1px solid #eaeaea;
+    z-index: 999;
+    display: flex;
+    gap: 10px;
+  }
+
+  .product-extra-link2 button {
+    flex: 1;
+    min-height: 46px;
+    font-size: 15px;
+  }
+
+  /* Wishlist / compare stay but shrink */
+  .product-extra-link2 .action-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+
+  /* ===== ACCORDION OPTIMIZATION ===== */
+
+  .accordion-button {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .accordion-body {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+
+  /* ===== SPACING NORMALIZATION ===== */
+
+  .bt-1 {
+    margin: 16px 0 !important;
+  }
+
+}
+
+
+/* -------------------------------
+   TABLET REFINEMENTS
+-------------------------------- */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .slider-nav-thumbnails {
+    display: none;
+  }
+
+  .product-extra-link2 {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+}
+
+
+/* -------------------------------
+   DESKTOP FINISH
+-------------------------------- */
+@media (min-width: 992px) {
+
+  .product-extra-link2 button {
+    min-height: 44px;
+  }
+
+}
